@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c99 -O2
 INCLUDES = -Iinclude
-SRC = main.c Kasiski.c Frequencias.c Vigenere.c
+SRC = src/main.c src/Kasiski.c src/Frequencias.c src/Vigenere.c src/IoC.c src/FrequencyAnalisys.c
 OBJ = $(SRC:.c=.o)
 EXEC = vigenere_decrypt
 

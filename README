@@ -1,0 +1,9 @@
+-------------------------------
+Para executar a aplicação:
+
+make
+./vigenere_decrypt
+
+-------------------------------
+
+a execução pode demorar por volta de 2 a 4 minutos
