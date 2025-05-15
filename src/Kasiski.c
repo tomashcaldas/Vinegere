@@ -5,7 +5,7 @@
 
 void find_repeated_sequences(const char *text, int **distances, int *count) {
     *count = 0;
-    size_t text_len = strlen(text);   //obtem o comprimento do texto cifrado
+    size_t text_commitlen = strlen(text);   //obtem o comprimento do texto cifrado
     size_t capacity = 100;              //capacidade inicial do array dinâmico
     
     *distances = malloc(capacity * sizeof(int));    //aloca em memoria dinâmica para array de inteiros distância
